@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+
+    font-family: "inter";
+   
+
+
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+#Titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menusuperior{
+        margin-left: 150px;
+        margin-top: 50px;
+        padding-bottom: 100px;
+}
+
+#menu-superior{
+        background-image: url(Imagens/fundo-menusuperior.svg);
+        color: rgb(255, 255, 255);
+}
+
+#menuinformativo{
+        background-color:#EAECE5 ;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+}
+
+.icone{
+        margin: 50px 0px 50px 100px;
+        padding: 20px ;
+}
+
+#secaovideo{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#Titulovideo {
+  color: #247BA0 ;
+  margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px ;
+}
+#carrossel{
+background-color:#2791be ;
+padding: 50px;
+
+}
+#titulo-carrossel{
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.Card {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Leonardo{
+    display: none;
+}
+.seta{
+    margin-top: 60%;
+    cursor: pointer;
+
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#FORMULARIO {
+text-align: center;
+
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    
+    Width: 413px;
+    Height: 50px;
+    background-color:#EAECE5;
+    margin: 15px;
+    border:0px ;
+    border-radius: 5px; 
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    Height: 50px;
+    Width: 350px;
+    border:0px ;
+    border-radius: 5px; 
+    color: aliceblue;
+    margin-bottom: 50px;
+    font-weight: bolder ;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #2791be;
+    color: azure;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #2d6881;
+    transition-duration: 0.5s;
+
+
+}
